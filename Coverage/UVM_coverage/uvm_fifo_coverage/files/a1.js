@@ -1,0 +1,2 @@
+var g_data = {"8":{"pr":"/uvmtb_top_sv_unit","ty":2,"dui":2,"dun":"work.uvmtb_top_sv_unit","asserts":[{"n":["fifo_sequence/body/#ublk#45160388#19/immed__24"],"h":[0,1]},{"n":["fifo_sequence_wr/body/#anonblk#45160388#51#4#/#ublk#45160388#51/immed__55"],"h":[0,1]},{"n":["sequence_fifo_rd/body/#anonblk#45160388#83#4#/#ublk#45160388#83/immed__87"],"h":[0,1]}],"ad":0}}
+processAssertionsData(g_data);

@@ -1,0 +1,2 @@
+var g_data = {"8":{"st":"inst","pa":0,"n":"/uvmtb_top_sv_unit","l":"SystemVerilog","sn":2,"du":{"n":"work.uvmtb_top_sv_unit","s":2,"b":1},"bc":[{"n":"uvmtb_top_sv_unit","s":8,"z":1}],"loc":{"cp":86.13,"data":{"gb":[66144,826,1],"cvpc":[29,1],"g":[3,72.26,1],"a":[3,3,1]}}},"2":{"st":"du","pa":0,"n":"work.uvmtb_top_sv_unit","l":"SystemVerilog","sn":2,"one_inst":8,"loc":{"cp":86.13,"data":{"gb":[66144,826,1],"cvpc":[29,1],"g":[3,72.26,1],"a":[3,3,1]}}}};
+processSummaryData(g_data);

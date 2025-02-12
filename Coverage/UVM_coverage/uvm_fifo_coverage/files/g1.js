@@ -1,0 +1,2 @@
+var g_data = {"8":{"pr":"/uvmtb_top_sv_unit","ty":2,"dui":2,"dun":"work.uvmtb_top_sv_unit","cvgs":[{"h":["/uvmtb_top_sv_unit/coverage/cov_mem",1,1,9],"cov":[66048,768,66.79],"opts":{"goal":"100","merge_instance":"auto(true)"}},{"h":["/uvmtb_top_sv_unit/coverage/test_write",1,1,13],"cov":[45,28,76.92],"opts":{"goal":"100","merge_instance":"auto(true)"}},{"h":["/uvmtb_top_sv_unit/coverage/test_read",1,1,27],"cov":[51,30,73.07],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

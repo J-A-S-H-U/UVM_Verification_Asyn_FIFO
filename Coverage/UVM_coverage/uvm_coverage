@@ -1,0 +1,1365 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /uvmtb_top_sv_unit/coverage/cov_mem              66.79%        100          -    Uncovered            
+    covered/total bins:                                   768      66048          -                      
+    missing/total bins:                                 65280      66048          -                      
+    % Hit:                                              1.16%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint a1                                     100.00%        100          -    Covered              
+        covered/total bins:                               256        256          -                      
+        missing/total bins:                                 0        256          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin waddr[0]                                        1          1          -    Covered              
+        bin waddr[1]                                        1          1          -    Covered              
+        bin waddr[2]                                        1          1          -    Covered              
+        bin waddr[3]                                        1          1          -    Covered              
+        bin waddr[4]                                        1          1          -    Covered              
+        bin waddr[5]                                        1          1          -    Covered              
+        bin waddr[6]                                        1          1          -    Covered              
+        bin waddr[7]                                        1          1          -    Covered              
+        bin waddr[8]                                        1          1          -    Covered              
+        bin waddr[9]                                        1          1          -    Covered              
+        bin waddr[10]                                       1          1          -    Covered              
+        bin waddr[11]                                       1          1          -    Covered              
+        bin waddr[12]                                       1          1          -    Covered              
+        bin waddr[13]                                       1          1          -    Covered              
+        bin waddr[14]                                       1          1          -    Covered              
+        bin waddr[15]                                       1          1          -    Covered              
+        bin waddr[16]                                       1          1          -    Covered              
+        bin waddr[17]                                       1          1          -    Covered              
+        bin waddr[18]                                       1          1          -    Covered              
+        bin waddr[19]                                       1          1          -    Covered              
+        bin waddr[20]                                       1          1          -    Covered              
+        bin waddr[21]                                       1          1          -    Covered              
+        bin waddr[22]                                       1          1          -    Covered              
+        bin waddr[23]                                       1          1          -    Covered              
+        bin waddr[24]                                       1          1          -    Covered              
+        bin waddr[25]                                       1          1          -    Covered              
+        bin waddr[26]                                       1          1          -    Covered              
+        bin waddr[27]                                       1          1          -    Covered              
+        bin waddr[28]                                       1          1          -    Covered              
+        bin waddr[29]                                       1          1          -    Covered              
+        bin waddr[30]                                       1          1          -    Covered              
+        bin waddr[31]                                       1          1          -    Covered              
+        bin waddr[32]                                       1          1          -    Covered              
+        bin waddr[33]                                       1          1          -    Covered              
+        bin waddr[34]                                       1          1          -    Covered              
+        bin waddr[35]                                       1          1          -    Covered              
+        bin waddr[36]                                       1          1          -    Covered              
+        bin waddr[37]                                       1          1          -    Covered              
+        bin waddr[38]                                       1          1          -    Covered              
+        bin waddr[39]                                       1          1          -    Covered              
+        bin waddr[40]                                       1          1          -    Covered              
+        bin waddr[41]                                       1          1          -    Covered              
+        bin waddr[42]                                       1          1          -    Covered              
+        bin waddr[43]                                       1          1          -    Covered              
+        bin waddr[44]                                       1          1          -    Covered              
+        bin waddr[45]                                       1          1          -    Covered              
+        bin waddr[46]                                       1          1          -    Covered              
+        bin waddr[47]                                       1          1          -    Covered              
+        bin waddr[48]                                       1          1          -    Covered              
+        bin waddr[49]                                       1          1          -    Covered              
+        bin waddr[50]                                       1          1          -    Covered              
+        bin waddr[51]                                       1          1          -    Covered              
+        bin waddr[52]                                       1          1          -    Covered              
+        bin waddr[53]                                       1          1          -    Covered              
+        bin waddr[54]                                       1          1          -    Covered              
+        bin waddr[55]                                       1          1          -    Covered              
+        bin waddr[56]                                       1          1          -    Covered              
+        bin waddr[57]                                       1          1          -    Covered              
+        bin waddr[58]                                       1          1          -    Covered              
+        bin waddr[59]                                       1          1          -    Covered              
+        bin waddr[60]                                       1          1          -    Covered              
+        bin waddr[61]                                       1          1          -    Covered              
+        bin waddr[62]                                       1          1          -    Covered              
+        bin waddr[63]                                       1          1          -    Covered              
+        bin waddr[64]                                       1          1          -    Covered              
+        bin waddr[65]                                       1          1          -    Covered              
+        bin waddr[66]                                       1          1          -    Covered              
+        bin waddr[67]                                       1          1          -    Covered              
+        bin waddr[68]                                       1          1          -    Covered              
+        bin waddr[69]                                       1          1          -    Covered              
+        bin waddr[70]                                       1          1          -    Covered              
+        bin waddr[71]                                       1          1          -    Covered              
+        bin waddr[72]                                       1          1          -    Covered              
+        bin waddr[73]                                       1          1          -    Covered              
+        bin waddr[74]                                       1          1          -    Covered              
+        bin waddr[75]                                       1          1          -    Covered              
+        bin waddr[76]                                       1          1          -    Covered              
+        bin waddr[77]                                       1          1          -    Covered              
+        bin waddr[78]                                       1          1          -    Covered              
+        bin waddr[79]                                       1          1          -    Covered              
+        bin waddr[80]                                       1          1          -    Covered              
+        bin waddr[81]                                       1          1          -    Covered              
+        bin waddr[82]                                       1          1          -    Covered              
+        bin waddr[83]                                       1          1          -    Covered              
+        bin waddr[84]                                       1          1          -    Covered              
+        bin waddr[85]                                       1          1          -    Covered              
+        bin waddr[86]                                       1          1          -    Covered              
+        bin waddr[87]                                       1          1          -    Covered              
+        bin waddr[88]                                       1          1          -    Covered              
+        bin waddr[89]                                       1          1          -    Covered              
+        bin waddr[90]                                       1          1          -    Covered              
+        bin waddr[91]                                       1          1          -    Covered              
+        bin waddr[92]                                       1          1          -    Covered              
+        bin waddr[93]                                       1          1          -    Covered              
+        bin waddr[94]                                       1          1          -    Covered              
+        bin waddr[95]                                       1          1          -    Covered              
+        bin waddr[96]                                       1          1          -    Covered              
+        bin waddr[97]                                       1          1          -    Covered              
+        bin waddr[98]                                       1          1          -    Covered              
+        bin waddr[99]                                       1          1          -    Covered              
+        bin waddr[100]                                      1          1          -    Covered              
+        bin waddr[101]                                      1          1          -    Covered              
+        bin waddr[102]                                      1          1          -    Covered              
+        bin waddr[103]                                      1          1          -    Covered              
+        bin waddr[104]                                      1          1          -    Covered              
+        bin waddr[105]                                      1          1          -    Covered              
+        bin waddr[106]                                      1          1          -    Covered              
+        bin waddr[107]                                      1          1          -    Covered              
+        bin waddr[108]                                      1          1          -    Covered              
+        bin waddr[109]                                      1          1          -    Covered              
+        bin waddr[110]                                      1          1          -    Covered              
+        bin waddr[111]                                      1          1          -    Covered              
+        bin waddr[112]                                      1          1          -    Covered              
+        bin waddr[113]                                      1          1          -    Covered              
+        bin waddr[114]                                      1          1          -    Covered              
+        bin waddr[115]                                      1          1          -    Covered              
+        bin waddr[116]                                      1          1          -    Covered              
+        bin waddr[117]                                      1          1          -    Covered              
+        bin waddr[118]                                      1          1          -    Covered              
+        bin waddr[119]                                      1          1          -    Covered              
+        bin waddr[120]                                      1          1          -    Covered              
+        bin waddr[121]                                      1          1          -    Covered              
+        bin waddr[122]                                      1          1          -    Covered              
+        bin waddr[123]                                      1          1          -    Covered              
+        bin waddr[124]                                      1          1          -    Covered              
+        bin waddr[125]                                      1          1          -    Covered              
+        bin waddr[126]                                      1          1          -    Covered              
+        bin waddr[127]                                      1          1          -    Covered              
+        bin waddr[128]                                      1          1          -    Covered              
+        bin waddr[129]                                      1          1          -    Covered              
+        bin waddr[130]                                      1          1          -    Covered              
+        bin waddr[131]                                      1          1          -    Covered              
+        bin waddr[132]                                      1          1          -    Covered              
+        bin waddr[133]                                      1          1          -    Covered              
+        bin waddr[134]                                      1          1          -    Covered              
+        bin waddr[135]                                      1          1          -    Covered              
+        bin waddr[136]                                      1          1          -    Covered              
+        bin waddr[137]                                      1          1          -    Covered              
+        bin waddr[138]                                      1          1          -    Covered              
+        bin waddr[139]                                      1          1          -    Covered              
+        bin waddr[140]                                      1          1          -    Covered              
+        bin waddr[141]                                      1          1          -    Covered              
+        bin waddr[142]                                      1          1          -    Covered              
+        bin waddr[143]                                      1          1          -    Covered              
+        bin waddr[144]                                      1          1          -    Covered              
+        bin waddr[145]                                      1          1          -    Covered              
+        bin waddr[146]                                      1          1          -    Covered              
+        bin waddr[147]                                      1          1          -    Covered              
+        bin waddr[148]                                      1          1          -    Covered              
+        bin waddr[149]                                      1          1          -    Covered              
+        bin waddr[150]                                      1          1          -    Covered              
+        bin waddr[151]                                      1          1          -    Covered              
+        bin waddr[152]                                      1          1          -    Covered              
+        bin waddr[153]                                      1          1          -    Covered              
+        bin waddr[154]                                      1          1          -    Covered              
+        bin waddr[155]                                      1          1          -    Covered              
+        bin waddr[156]                                      1          1          -    Covered              
+        bin waddr[157]                                      1          1          -    Covered              
+        bin waddr[158]                                      1          1          -    Covered              
+        bin waddr[159]                                      1          1          -    Covered              
+        bin waddr[160]                                      1          1          -    Covered              
+        bin waddr[161]                                      1          1          -    Covered              
+        bin waddr[162]                                      1          1          -    Covered              
+        bin waddr[163]                                      1          1          -    Covered              
+        bin waddr[164]                                      1          1          -    Covered              
+        bin waddr[165]                                      1          1          -    Covered              
+        bin waddr[166]                                      1          1          -    Covered              
+        bin waddr[167]                                      1          1          -    Covered              
+        bin waddr[168]                                      1          1          -    Covered              
+        bin waddr[169]                                      1          1          -    Covered              
+        bin waddr[170]                                      1          1          -    Covered              
+        bin waddr[171]                                      1          1          -    Covered              
+        bin waddr[172]                                      1          1          -    Covered              
+        bin waddr[173]                                      1          1          -    Covered              
+        bin waddr[174]                                      1          1          -    Covered              
+        bin waddr[175]                                      1          1          -    Covered              
+        bin waddr[176]                                      1          1          -    Covered              
+        bin waddr[177]                                      1          1          -    Covered              
+        bin waddr[178]                                      1          1          -    Covered              
+        bin waddr[179]                                      1          1          -    Covered              
+        bin waddr[180]                                      1          1          -    Covered              
+        bin waddr[181]                                      1          1          -    Covered              
+        bin waddr[182]                                      1          1          -    Covered              
+        bin waddr[183]                                      1          1          -    Covered              
+        bin waddr[184]                                      1          1          -    Covered              
+        bin waddr[185]                                      1          1          -    Covered              
+        bin waddr[186]                                      1          1          -    Covered              
+        bin waddr[187]                                      1          1          -    Covered              
+        bin waddr[188]                                      1          1          -    Covered              
+        bin waddr[189]                                      1          1          -    Covered              
+        bin waddr[190]                                      1          1          -    Covered              
+        bin waddr[191]                                      1          1          -    Covered              
+        bin waddr[192]                                      1          1          -    Covered              
+        bin waddr[193]                                      1          1          -    Covered              
+        bin waddr[194]                                      1          1          -    Covered              
+        bin waddr[195]                                      1          1          -    Covered              
+        bin waddr[196]                                      1          1          -    Covered              
+        bin waddr[197]                                      1          1          -    Covered              
+        bin waddr[198]                                      1          1          -    Covered              
+        bin waddr[199]                                      1          1          -    Covered              
+        bin waddr[200]                                      1          1          -    Covered              
+        bin waddr[201]                                      1          1          -    Covered              
+        bin waddr[202]                                      1          1          -    Covered              
+        bin waddr[203]                                      1          1          -    Covered              
+        bin waddr[204]                                      1          1          -    Covered              
+        bin waddr[205]                                      1          1          -    Covered              
+        bin waddr[206]                                      1          1          -    Covered              
+        bin waddr[207]                                      1          1          -    Covered              
+        bin waddr[208]                                      1          1          -    Covered              
+        bin waddr[209]                                      1          1          -    Covered              
+        bin waddr[210]                                      1          1          -    Covered              
+        bin waddr[211]                                      1          1          -    Covered              
+        bin waddr[212]                                      1          1          -    Covered              
+        bin waddr[213]                                      1          1          -    Covered              
+        bin waddr[214]                                      1          1          -    Covered              
+        bin waddr[215]                                      1          1          -    Covered              
+        bin waddr[216]                                      1          1          -    Covered              
+        bin waddr[217]                                      1          1          -    Covered              
+        bin waddr[218]                                      1          1          -    Covered              
+        bin waddr[219]                                      1          1          -    Covered              
+        bin waddr[220]                                      1          1          -    Covered              
+        bin waddr[221]                                      1          1          -    Covered              
+        bin waddr[222]                                      1          1          -    Covered              
+        bin waddr[223]                                      1          1          -    Covered              
+        bin waddr[224]                                      1          1          -    Covered              
+        bin waddr[225]                                      1          1          -    Covered              
+        bin waddr[226]                                      1          1          -    Covered              
+        bin waddr[227]                                      1          1          -    Covered              
+        bin waddr[228]                                      1          1          -    Covered              
+        bin waddr[229]                                      1          1          -    Covered              
+        bin waddr[230]                                      1          1          -    Covered              
+        bin waddr[231]                                      1          1          -    Covered              
+        bin waddr[232]                                      1          1          -    Covered              
+        bin waddr[233]                                      1          1          -    Covered              
+        bin waddr[234]                                      1          1          -    Covered              
+        bin waddr[235]                                      1          1          -    Covered              
+        bin waddr[236]                                      1          1          -    Covered              
+        bin waddr[237]                                      1          1          -    Covered              
+        bin waddr[238]                                      1          1          -    Covered              
+        bin waddr[239]                                      1          1          -    Covered              
+        bin waddr[240]                                      1          1          -    Covered              
+        bin waddr[241]                                      1          1          -    Covered              
+        bin waddr[242]                                      1          1          -    Covered              
+        bin waddr[243]                                      1          1          -    Covered              
+        bin waddr[244]                                      1          1          -    Covered              
+        bin waddr[245]                                      1          1          -    Covered              
+        bin waddr[246]                                      1          1          -    Covered              
+        bin waddr[247]                                      1          1          -    Covered              
+        bin waddr[248]                                      1          1          -    Covered              
+        bin waddr[249]                                      1          1          -    Covered              
+        bin waddr[250]                                      1          1          -    Covered              
+        bin waddr[251]                                      1          1          -    Covered              
+        bin waddr[252]                                      1          1          -    Covered              
+        bin waddr[253]                                      1          1          -    Covered              
+        bin waddr[254]                                      1          1          -    Covered              
+        bin waddr[255]                                      1          1          -    Covered              
+    Coverpoint a2                                     100.00%        100          -    Covered              
+        covered/total bins:                               256        256          -                      
+        missing/total bins:                                 0        256          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin raddr[0]                                      258          1          -    Covered              
+        bin raddr[1]                                        1          1          -    Covered              
+        bin raddr[2]                                        1          1          -    Covered              
+        bin raddr[3]                                        1          1          -    Covered              
+        bin raddr[4]                                        1          1          -    Covered              
+        bin raddr[5]                                        1          1          -    Covered              
+        bin raddr[6]                                        1          1          -    Covered              
+        bin raddr[7]                                        1          1          -    Covered              
+        bin raddr[8]                                        1          1          -    Covered              
+        bin raddr[9]                                        1          1          -    Covered              
+        bin raddr[10]                                       1          1          -    Covered              
+        bin raddr[11]                                       1          1          -    Covered              
+        bin raddr[12]                                       1          1          -    Covered              
+        bin raddr[13]                                       1          1          -    Covered              
+        bin raddr[14]                                       1          1          -    Covered              
+        bin raddr[15]                                       1          1          -    Covered              
+        bin raddr[16]                                       1          1          -    Covered              
+        bin raddr[17]                                       1          1          -    Covered              
+        bin raddr[18]                                       1          1          -    Covered              
+        bin raddr[19]                                       1          1          -    Covered              
+        bin raddr[20]                                       1          1          -    Covered              
+        bin raddr[21]                                       1          1          -    Covered              
+        bin raddr[22]                                       1          1          -    Covered              
+        bin raddr[23]                                       1          1          -    Covered              
+        bin raddr[24]                                       1          1          -    Covered              
+        bin raddr[25]                                       1          1          -    Covered              
+        bin raddr[26]                                       1          1          -    Covered              
+        bin raddr[27]                                       1          1          -    Covered              
+        bin raddr[28]                                       1          1          -    Covered              
+        bin raddr[29]                                       1          1          -    Covered              
+        bin raddr[30]                                       1          1          -    Covered              
+        bin raddr[31]                                       1          1          -    Covered              
+        bin raddr[32]                                       1          1          -    Covered              
+        bin raddr[33]                                       1          1          -    Covered              
+        bin raddr[34]                                       1          1          -    Covered              
+        bin raddr[35]                                       1          1          -    Covered              
+        bin raddr[36]                                       1          1          -    Covered              
+        bin raddr[37]                                       1          1          -    Covered              
+        bin raddr[38]                                       1          1          -    Covered              
+        bin raddr[39]                                       1          1          -    Covered              
+        bin raddr[40]                                       1          1          -    Covered              
+        bin raddr[41]                                       1          1          -    Covered              
+        bin raddr[42]                                       1          1          -    Covered              
+        bin raddr[43]                                       1          1          -    Covered              
+        bin raddr[44]                                       1          1          -    Covered              
+        bin raddr[45]                                       1          1          -    Covered              
+        bin raddr[46]                                       1          1          -    Covered              
+        bin raddr[47]                                       1          1          -    Covered              
+        bin raddr[48]                                       1          1          -    Covered              
+        bin raddr[49]                                       1          1          -    Covered              
+        bin raddr[50]                                       1          1          -    Covered              
+        bin raddr[51]                                       1          1          -    Covered              
+        bin raddr[52]                                       1          1          -    Covered              
+        bin raddr[53]                                       1          1          -    Covered              
+        bin raddr[54]                                       1          1          -    Covered              
+        bin raddr[55]                                       1          1          -    Covered              
+        bin raddr[56]                                       1          1          -    Covered              
+        bin raddr[57]                                       1          1          -    Covered              
+        bin raddr[58]                                       1          1          -    Covered              
+        bin raddr[59]                                       1          1          -    Covered              
+        bin raddr[60]                                       1          1          -    Covered              
+        bin raddr[61]                                       1          1          -    Covered              
+        bin raddr[62]                                       1          1          -    Covered              
+        bin raddr[63]                                       1          1          -    Covered              
+        bin raddr[64]                                       1          1          -    Covered              
+        bin raddr[65]                                       1          1          -    Covered              
+        bin raddr[66]                                       1          1          -    Covered              
+        bin raddr[67]                                       1          1          -    Covered              
+        bin raddr[68]                                       1          1          -    Covered              
+        bin raddr[69]                                       1          1          -    Covered              
+        bin raddr[70]                                       1          1          -    Covered              
+        bin raddr[71]                                       1          1          -    Covered              
+        bin raddr[72]                                       1          1          -    Covered              
+        bin raddr[73]                                       1          1          -    Covered              
+        bin raddr[74]                                       1          1          -    Covered              
+        bin raddr[75]                                       1          1          -    Covered              
+        bin raddr[76]                                       1          1          -    Covered              
+        bin raddr[77]                                       1          1          -    Covered              
+        bin raddr[78]                                       1          1          -    Covered              
+        bin raddr[79]                                       1          1          -    Covered              
+        bin raddr[80]                                       1          1          -    Covered              
+        bin raddr[81]                                       1          1          -    Covered              
+        bin raddr[82]                                       1          1          -    Covered              
+        bin raddr[83]                                       1          1          -    Covered              
+        bin raddr[84]                                       1          1          -    Covered              
+        bin raddr[85]                                       1          1          -    Covered              
+        bin raddr[86]                                       1          1          -    Covered              
+        bin raddr[87]                                       1          1          -    Covered              
+        bin raddr[88]                                       1          1          -    Covered              
+        bin raddr[89]                                       1          1          -    Covered              
+        bin raddr[90]                                       1          1          -    Covered              
+        bin raddr[91]                                       1          1          -    Covered              
+        bin raddr[92]                                       1          1          -    Covered              
+        bin raddr[93]                                       1          1          -    Covered              
+        bin raddr[94]                                       1          1          -    Covered              
+        bin raddr[95]                                       1          1          -    Covered              
+        bin raddr[96]                                       1          1          -    Covered              
+        bin raddr[97]                                       1          1          -    Covered              
+        bin raddr[98]                                       1          1          -    Covered              
+        bin raddr[99]                                       1          1          -    Covered              
+        bin raddr[100]                                      1          1          -    Covered              
+        bin raddr[101]                                      1          1          -    Covered              
+        bin raddr[102]                                      1          1          -    Covered              
+        bin raddr[103]                                      1          1          -    Covered              
+        bin raddr[104]                                      1          1          -    Covered              
+        bin raddr[105]                                      1          1          -    Covered              
+        bin raddr[106]                                      1          1          -    Covered              
+        bin raddr[107]                                      1          1          -    Covered              
+        bin raddr[108]                                      1          1          -    Covered              
+        bin raddr[109]                                      1          1          -    Covered              
+        bin raddr[110]                                      1          1          -    Covered              
+        bin raddr[111]                                      1          1          -    Covered              
+        bin raddr[112]                                      1          1          -    Covered              
+        bin raddr[113]                                      1          1          -    Covered              
+        bin raddr[114]                                      1          1          -    Covered              
+        bin raddr[115]                                      1          1          -    Covered              
+        bin raddr[116]                                      1          1          -    Covered              
+        bin raddr[117]                                      1          1          -    Covered              
+        bin raddr[118]                                      1          1          -    Covered              
+        bin raddr[119]                                      1          1          -    Covered              
+        bin raddr[120]                                      1          1          -    Covered              
+        bin raddr[121]                                      1          1          -    Covered              
+        bin raddr[122]                                      1          1          -    Covered              
+        bin raddr[123]                                      1          1          -    Covered              
+        bin raddr[124]                                      1          1          -    Covered              
+        bin raddr[125]                                      1          1          -    Covered              
+        bin raddr[126]                                      1          1          -    Covered              
+        bin raddr[127]                                      1          1          -    Covered              
+        bin raddr[128]                                      1          1          -    Covered              
+        bin raddr[129]                                      1          1          -    Covered              
+        bin raddr[130]                                      1          1          -    Covered              
+        bin raddr[131]                                      1          1          -    Covered              
+        bin raddr[132]                                      1          1          -    Covered              
+        bin raddr[133]                                      1          1          -    Covered              
+        bin raddr[134]                                      1          1          -    Covered              
+        bin raddr[135]                                      1          1          -    Covered              
+        bin raddr[136]                                      1          1          -    Covered              
+        bin raddr[137]                                      1          1          -    Covered              
+        bin raddr[138]                                      1          1          -    Covered              
+        bin raddr[139]                                      1          1          -    Covered              
+        bin raddr[140]                                      1          1          -    Covered              
+        bin raddr[141]                                      1          1          -    Covered              
+        bin raddr[142]                                      1          1          -    Covered              
+        bin raddr[143]                                      1          1          -    Covered              
+        bin raddr[144]                                      1          1          -    Covered              
+        bin raddr[145]                                      1          1          -    Covered              
+        bin raddr[146]                                      1          1          -    Covered              
+        bin raddr[147]                                      1          1          -    Covered              
+        bin raddr[148]                                      1          1          -    Covered              
+        bin raddr[149]                                      1          1          -    Covered              
+        bin raddr[150]                                      1          1          -    Covered              
+        bin raddr[151]                                      1          1          -    Covered              
+        bin raddr[152]                                      1          1          -    Covered              
+        bin raddr[153]                                      1          1          -    Covered              
+        bin raddr[154]                                      1          1          -    Covered              
+        bin raddr[155]                                      1          1          -    Covered              
+        bin raddr[156]                                      1          1          -    Covered              
+        bin raddr[157]                                      1          1          -    Covered              
+        bin raddr[158]                                      1          1          -    Covered              
+        bin raddr[159]                                      1          1          -    Covered              
+        bin raddr[160]                                      1          1          -    Covered              
+        bin raddr[161]                                      1          1          -    Covered              
+        bin raddr[162]                                      1          1          -    Covered              
+        bin raddr[163]                                      1          1          -    Covered              
+        bin raddr[164]                                      1          1          -    Covered              
+        bin raddr[165]                                      1          1          -    Covered              
+        bin raddr[166]                                      1          1          -    Covered              
+        bin raddr[167]                                      1          1          -    Covered              
+        bin raddr[168]                                      1          1          -    Covered              
+        bin raddr[169]                                      1          1          -    Covered              
+        bin raddr[170]                                      1          1          -    Covered              
+        bin raddr[171]                                      1          1          -    Covered              
+        bin raddr[172]                                      1          1          -    Covered              
+        bin raddr[173]                                      1          1          -    Covered              
+        bin raddr[174]                                      1          1          -    Covered              
+        bin raddr[175]                                      1          1          -    Covered              
+        bin raddr[176]                                      1          1          -    Covered              
+        bin raddr[177]                                      1          1          -    Covered              
+        bin raddr[178]                                      1          1          -    Covered              
+        bin raddr[179]                                      1          1          -    Covered              
+        bin raddr[180]                                      1          1          -    Covered              
+        bin raddr[181]                                      1          1          -    Covered              
+        bin raddr[182]                                      1          1          -    Covered              
+        bin raddr[183]                                      1          1          -    Covered              
+        bin raddr[184]                                      1          1          -    Covered              
+        bin raddr[185]                                      1          1          -    Covered              
+        bin raddr[186]                                      1          1          -    Covered              
+        bin raddr[187]                                      1          1          -    Covered              
+        bin raddr[188]                                      1          1          -    Covered              
+        bin raddr[189]                                      1          1          -    Covered              
+        bin raddr[190]                                      1          1          -    Covered              
+        bin raddr[191]                                      1          1          -    Covered              
+        bin raddr[192]                                      1          1          -    Covered              
+        bin raddr[193]                                      1          1          -    Covered              
+        bin raddr[194]                                      1          1          -    Covered              
+        bin raddr[195]                                      1          1          -    Covered              
+        bin raddr[196]                                      1          1          -    Covered              
+        bin raddr[197]                                      1          1          -    Covered              
+        bin raddr[198]                                      1          1          -    Covered              
+        bin raddr[199]                                      1          1          -    Covered              
+        bin raddr[200]                                      1          1          -    Covered              
+        bin raddr[201]                                      1          1          -    Covered              
+        bin raddr[202]                                      1          1          -    Covered              
+        bin raddr[203]                                      1          1          -    Covered              
+        bin raddr[204]                                      1          1          -    Covered              
+        bin raddr[205]                                      1          1          -    Covered              
+        bin raddr[206]                                      1          1          -    Covered              
+        bin raddr[207]                                      1          1          -    Covered              
+        bin raddr[208]                                      1          1          -    Covered              
+        bin raddr[209]                                      1          1          -    Covered              
+        bin raddr[210]                                      1          1          -    Covered              
+        bin raddr[211]                                      1          1          -    Covered              
+        bin raddr[212]                                      1          1          -    Covered              
+        bin raddr[213]                                      1          1          -    Covered              
+        bin raddr[214]                                      1          1          -    Covered              
+        bin raddr[215]                                      1          1          -    Covered              
+        bin raddr[216]                                      1          1          -    Covered              
+        bin raddr[217]                                      1          1          -    Covered              
+        bin raddr[218]                                      1          1          -    Covered              
+        bin raddr[219]                                      1          1          -    Covered              
+        bin raddr[220]                                      1          1          -    Covered              
+        bin raddr[221]                                      1          1          -    Covered              
+        bin raddr[222]                                      1          1          -    Covered              
+        bin raddr[223]                                      1          1          -    Covered              
+        bin raddr[224]                                      1          1          -    Covered              
+        bin raddr[225]                                      1          1          -    Covered              
+        bin raddr[226]                                      1          1          -    Covered              
+        bin raddr[227]                                      1          1          -    Covered              
+        bin raddr[228]                                      1          1          -    Covered              
+        bin raddr[229]                                      1          1          -    Covered              
+        bin raddr[230]                                      1          1          -    Covered              
+        bin raddr[231]                                      1          1          -    Covered              
+        bin raddr[232]                                      1          1          -    Covered              
+        bin raddr[233]                                      1          1          -    Covered              
+        bin raddr[234]                                      1          1          -    Covered              
+        bin raddr[235]                                      1          1          -    Covered              
+        bin raddr[236]                                      1          1          -    Covered              
+        bin raddr[237]                                      1          1          -    Covered              
+        bin raddr[238]                                      1          1          -    Covered              
+        bin raddr[239]                                      1          1          -    Covered              
+        bin raddr[240]                                      1          1          -    Covered              
+        bin raddr[241]                                      1          1          -    Covered              
+        bin raddr[242]                                      1          1          -    Covered              
+        bin raddr[243]                                      1          1          -    Covered              
+        bin raddr[244]                                      1          1          -    Covered              
+        bin raddr[245]                                      1          1          -    Covered              
+        bin raddr[246]                                      1          1          -    Covered              
+        bin raddr[247]                                      1          1          -    Covered              
+        bin raddr[248]                                      1          1          -    Covered              
+        bin raddr[249]                                      1          1          -    Covered              
+        bin raddr[250]                                      1          1          -    Covered              
+        bin raddr[251]                                      1          1          -    Covered              
+        bin raddr[252]                                      1          1          -    Covered              
+        bin raddr[253]                                      1          1          -    Covered              
+        bin raddr[254]                                      1          1          -    Covered              
+        bin raddr[255]                                      1          1          -    Covered              
+    Cross w_r_addr                                      0.39%        100          -    Uncovered            
+        covered/total bins:                               256      65536          -                      
+        missing/total bins:                             65280      65536          -                      
+        % Hit:                                          0.39%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <waddr[0],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[1],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[2],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[3],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[4],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[5],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[6],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[7],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[8],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[9],raddr[0]>                         1          1          -    Covered              
+            bin <waddr[10],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[11],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[12],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[13],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[14],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[15],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[16],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[17],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[18],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[19],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[20],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[21],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[22],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[23],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[24],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[25],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[26],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[27],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[28],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[29],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[30],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[31],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[32],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[33],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[34],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[35],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[36],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[37],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[38],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[39],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[40],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[41],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[42],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[43],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[44],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[45],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[46],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[47],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[48],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[49],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[50],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[51],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[52],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[53],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[54],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[55],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[56],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[57],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[58],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[59],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[60],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[61],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[62],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[63],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[64],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[65],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[66],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[67],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[68],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[69],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[70],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[71],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[72],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[73],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[74],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[75],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[76],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[77],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[78],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[79],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[80],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[81],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[82],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[83],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[84],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[85],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[86],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[87],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[88],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[89],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[90],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[91],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[92],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[93],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[94],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[95],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[96],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[97],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[98],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[99],raddr[0]>                        1          1          -    Covered              
+            bin <waddr[100],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[101],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[102],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[103],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[104],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[105],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[106],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[107],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[108],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[109],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[110],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[111],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[112],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[113],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[114],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[115],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[116],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[117],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[118],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[119],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[120],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[121],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[122],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[123],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[124],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[125],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[126],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[127],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[128],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[129],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[130],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[131],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[132],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[133],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[134],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[135],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[136],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[137],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[138],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[139],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[140],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[141],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[142],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[143],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[144],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[145],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[146],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[147],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[148],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[149],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[150],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[151],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[152],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[153],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[154],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[155],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[156],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[157],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[158],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[159],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[160],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[161],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[162],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[163],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[164],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[165],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[166],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[167],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[168],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[169],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[170],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[171],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[172],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[173],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[174],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[175],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[176],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[177],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[178],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[179],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[180],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[181],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[182],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[183],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[184],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[185],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[186],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[187],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[188],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[189],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[190],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[191],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[192],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[193],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[194],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[195],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[196],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[197],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[198],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[199],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[200],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[201],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[202],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[203],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[204],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[205],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[206],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[207],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[208],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[209],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[210],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[211],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[212],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[213],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[214],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[215],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[216],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[217],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[218],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[219],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[220],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[221],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[222],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[223],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[224],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[225],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[226],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[227],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[228],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[229],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[230],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[231],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[232],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[233],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[234],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[235],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[236],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[237],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[238],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[239],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[240],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[241],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[242],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[243],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[244],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[245],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[246],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[247],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[248],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[249],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[250],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[251],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[252],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[253],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[254],raddr[0]>                       1          1          -    Covered              
+            bin <waddr[255],raddr[0]>                       1          1          -    Covered              
+            bin <*,raddr[255]>                              0          1        256    ZERO                 
+            bin <*,raddr[254]>                              0          1        256    ZERO                 
+            bin <*,raddr[253]>                              0          1        256    ZERO                 
+            bin <*,raddr[252]>                              0          1        256    ZERO                 
+            bin <*,raddr[251]>                              0          1        256    ZERO                 
+            bin <*,raddr[250]>                              0          1        256    ZERO                 
+            bin <*,raddr[249]>                              0          1        256    ZERO                 
+            bin <*,raddr[248]>                              0          1        256    ZERO                 
+            bin <*,raddr[247]>                              0          1        256    ZERO                 
+            bin <*,raddr[246]>                              0          1        256    ZERO                 
+            bin <*,raddr[245]>                              0          1        256    ZERO                 
+            bin <*,raddr[244]>                              0          1        256    ZERO                 
+            bin <*,raddr[243]>                              0          1        256    ZERO                 
+            bin <*,raddr[242]>                              0          1        256    ZERO                 
+            bin <*,raddr[241]>                              0          1        256    ZERO                 
+            bin <*,raddr[240]>                              0          1        256    ZERO                 
+            bin <*,raddr[239]>                              0          1        256    ZERO                 
+            bin <*,raddr[238]>                              0          1        256    ZERO                 
+            bin <*,raddr[237]>                              0          1        256    ZERO                 
+            bin <*,raddr[236]>                              0          1        256    ZERO                 
+            bin <*,raddr[235]>                              0          1        256    ZERO                 
+            bin <*,raddr[234]>                              0          1        256    ZERO                 
+            bin <*,raddr[233]>                              0          1        256    ZERO                 
+            bin <*,raddr[232]>                              0          1        256    ZERO                 
+            bin <*,raddr[231]>                              0          1        256    ZERO                 
+            bin <*,raddr[230]>                              0          1        256    ZERO                 
+            bin <*,raddr[229]>                              0          1        256    ZERO                 
+            bin <*,raddr[228]>                              0          1        256    ZERO                 
+            bin <*,raddr[227]>                              0          1        256    ZERO                 
+            bin <*,raddr[226]>                              0          1        256    ZERO                 
+            bin <*,raddr[225]>                              0          1        256    ZERO                 
+            bin <*,raddr[224]>                              0          1        256    ZERO                 
+            bin <*,raddr[223]>                              0          1        256    ZERO                 
+            bin <*,raddr[222]>                              0          1        256    ZERO                 
+            bin <*,raddr[221]>                              0          1        256    ZERO                 
+            bin <*,raddr[220]>                              0          1        256    ZERO                 
+            bin <*,raddr[219]>                              0          1        256    ZERO                 
+            bin <*,raddr[218]>                              0          1        256    ZERO                 
+            bin <*,raddr[217]>                              0          1        256    ZERO                 
+            bin <*,raddr[216]>                              0          1        256    ZERO                 
+            bin <*,raddr[215]>                              0          1        256    ZERO                 
+            bin <*,raddr[214]>                              0          1        256    ZERO                 
+            bin <*,raddr[213]>                              0          1        256    ZERO                 
+            bin <*,raddr[212]>                              0          1        256    ZERO                 
+            bin <*,raddr[211]>                              0          1        256    ZERO                 
+            bin <*,raddr[210]>                              0          1        256    ZERO                 
+            bin <*,raddr[209]>                              0          1        256    ZERO                 
+            bin <*,raddr[208]>                              0          1        256    ZERO                 
+            bin <*,raddr[207]>                              0          1        256    ZERO                 
+            bin <*,raddr[206]>                              0          1        256    ZERO                 
+            bin <*,raddr[205]>                              0          1        256    ZERO                 
+            bin <*,raddr[204]>                              0          1        256    ZERO                 
+            bin <*,raddr[203]>                              0          1        256    ZERO                 
+            bin <*,raddr[202]>                              0          1        256    ZERO                 
+            bin <*,raddr[201]>                              0          1        256    ZERO                 
+            bin <*,raddr[200]>                              0          1        256    ZERO                 
+            bin <*,raddr[199]>                              0          1        256    ZERO                 
+            bin <*,raddr[198]>                              0          1        256    ZERO                 
+            bin <*,raddr[197]>                              0          1        256    ZERO                 
+            bin <*,raddr[196]>                              0          1        256    ZERO                 
+            bin <*,raddr[195]>                              0          1        256    ZERO                 
+            bin <*,raddr[194]>                              0          1        256    ZERO                 
+            bin <*,raddr[193]>                              0          1        256    ZERO                 
+            bin <*,raddr[192]>                              0          1        256    ZERO                 
+            bin <*,raddr[191]>                              0          1        256    ZERO                 
+            bin <*,raddr[190]>                              0          1        256    ZERO                 
+            bin <*,raddr[189]>                              0          1        256    ZERO                 
+            bin <*,raddr[188]>                              0          1        256    ZERO                 
+            bin <*,raddr[187]>                              0          1        256    ZERO                 
+            bin <*,raddr[186]>                              0          1        256    ZERO                 
+            bin <*,raddr[185]>                              0          1        256    ZERO                 
+            bin <*,raddr[184]>                              0          1        256    ZERO                 
+            bin <*,raddr[183]>                              0          1        256    ZERO                 
+            bin <*,raddr[182]>                              0          1        256    ZERO                 
+            bin <*,raddr[181]>                              0          1        256    ZERO                 
+            bin <*,raddr[180]>                              0          1        256    ZERO                 
+            bin <*,raddr[179]>                              0          1        256    ZERO                 
+            bin <*,raddr[178]>                              0          1        256    ZERO                 
+            bin <*,raddr[177]>                              0          1        256    ZERO                 
+            bin <*,raddr[176]>                              0          1        256    ZERO                 
+            bin <*,raddr[175]>                              0          1        256    ZERO                 
+            bin <*,raddr[174]>                              0          1        256    ZERO                 
+            bin <*,raddr[173]>                              0          1        256    ZERO                 
+            bin <*,raddr[172]>                              0          1        256    ZERO                 
+            bin <*,raddr[171]>                              0          1        256    ZERO                 
+            bin <*,raddr[170]>                              0          1        256    ZERO                 
+            bin <*,raddr[169]>                              0          1        256    ZERO                 
+            bin <*,raddr[168]>                              0          1        256    ZERO                 
+            bin <*,raddr[167]>                              0          1        256    ZERO                 
+            bin <*,raddr[166]>                              0          1        256    ZERO                 
+            bin <*,raddr[165]>                              0          1        256    ZERO                 
+            bin <*,raddr[164]>                              0          1        256    ZERO                 
+            bin <*,raddr[163]>                              0          1        256    ZERO                 
+            bin <*,raddr[162]>                              0          1        256    ZERO                 
+            bin <*,raddr[161]>                              0          1        256    ZERO                 
+            bin <*,raddr[160]>                              0          1        256    ZERO                 
+            bin <*,raddr[159]>                              0          1        256    ZERO                 
+            bin <*,raddr[158]>                              0          1        256    ZERO                 
+            bin <*,raddr[157]>                              0          1        256    ZERO                 
+            bin <*,raddr[156]>                              0          1        256    ZERO                 
+            bin <*,raddr[155]>                              0          1        256    ZERO                 
+            bin <*,raddr[154]>                              0          1        256    ZERO                 
+            bin <*,raddr[153]>                              0          1        256    ZERO                 
+            bin <*,raddr[152]>                              0          1        256    ZERO                 
+            bin <*,raddr[151]>                              0          1        256    ZERO                 
+            bin <*,raddr[150]>                              0          1        256    ZERO                 
+            bin <*,raddr[149]>                              0          1        256    ZERO                 
+            bin <*,raddr[148]>                              0          1        256    ZERO                 
+            bin <*,raddr[147]>                              0          1        256    ZERO                 
+            bin <*,raddr[146]>                              0          1        256    ZERO                 
+            bin <*,raddr[145]>                              0          1        256    ZERO                 
+            bin <*,raddr[144]>                              0          1        256    ZERO                 
+            bin <*,raddr[143]>                              0          1        256    ZERO                 
+            bin <*,raddr[142]>                              0          1        256    ZERO                 
+            bin <*,raddr[141]>                              0          1        256    ZERO                 
+            bin <*,raddr[140]>                              0          1        256    ZERO                 
+            bin <*,raddr[139]>                              0          1        256    ZERO                 
+            bin <*,raddr[138]>                              0          1        256    ZERO                 
+            bin <*,raddr[137]>                              0          1        256    ZERO                 
+            bin <*,raddr[136]>                              0          1        256    ZERO                 
+            bin <*,raddr[135]>                              0          1        256    ZERO                 
+            bin <*,raddr[134]>                              0          1        256    ZERO                 
+            bin <*,raddr[133]>                              0          1        256    ZERO                 
+            bin <*,raddr[132]>                              0          1        256    ZERO                 
+            bin <*,raddr[131]>                              0          1        256    ZERO                 
+            bin <*,raddr[130]>                              0          1        256    ZERO                 
+            bin <*,raddr[129]>                              0          1        256    ZERO                 
+            bin <*,raddr[128]>                              0          1        256    ZERO                 
+            bin <*,raddr[127]>                              0          1        256    ZERO                 
+            bin <*,raddr[126]>                              0          1        256    ZERO                 
+            bin <*,raddr[125]>                              0          1        256    ZERO                 
+            bin <*,raddr[124]>                              0          1        256    ZERO                 
+            bin <*,raddr[123]>                              0          1        256    ZERO                 
+            bin <*,raddr[122]>                              0          1        256    ZERO                 
+            bin <*,raddr[121]>                              0          1        256    ZERO                 
+            bin <*,raddr[120]>                              0          1        256    ZERO                 
+            bin <*,raddr[119]>                              0          1        256    ZERO                 
+            bin <*,raddr[118]>                              0          1        256    ZERO                 
+            bin <*,raddr[117]>                              0          1        256    ZERO                 
+            bin <*,raddr[116]>                              0          1        256    ZERO                 
+            bin <*,raddr[115]>                              0          1        256    ZERO                 
+            bin <*,raddr[114]>                              0          1        256    ZERO                 
+            bin <*,raddr[113]>                              0          1        256    ZERO                 
+            bin <*,raddr[112]>                              0          1        256    ZERO                 
+            bin <*,raddr[111]>                              0          1        256    ZERO                 
+            bin <*,raddr[110]>                              0          1        256    ZERO                 
+            bin <*,raddr[109]>                              0          1        256    ZERO                 
+            bin <*,raddr[108]>                              0          1        256    ZERO                 
+            bin <*,raddr[107]>                              0          1        256    ZERO                 
+            bin <*,raddr[106]>                              0          1        256    ZERO                 
+            bin <*,raddr[105]>                              0          1        256    ZERO                 
+            bin <*,raddr[104]>                              0          1        256    ZERO                 
+            bin <*,raddr[103]>                              0          1        256    ZERO                 
+            bin <*,raddr[102]>                              0          1        256    ZERO                 
+            bin <*,raddr[101]>                              0          1        256    ZERO                 
+            bin <*,raddr[100]>                              0          1        256    ZERO                 
+            bin <*,raddr[99]>                               0          1        256    ZERO                 
+            bin <*,raddr[98]>                               0          1        256    ZERO                 
+            bin <*,raddr[97]>                               0          1        256    ZERO                 
+            bin <*,raddr[96]>                               0          1        256    ZERO                 
+            bin <*,raddr[95]>                               0          1        256    ZERO                 
+            bin <*,raddr[94]>                               0          1        256    ZERO                 
+            bin <*,raddr[93]>                               0          1        256    ZERO                 
+            bin <*,raddr[92]>                               0          1        256    ZERO                 
+            bin <*,raddr[91]>                               0          1        256    ZERO                 
+            bin <*,raddr[90]>                               0          1        256    ZERO                 
+            bin <*,raddr[89]>                               0          1        256    ZERO                 
+            bin <*,raddr[88]>                               0          1        256    ZERO                 
+            bin <*,raddr[87]>                               0          1        256    ZERO                 
+            bin <*,raddr[86]>                               0          1        256    ZERO                 
+            bin <*,raddr[85]>                               0          1        256    ZERO                 
+            bin <*,raddr[84]>                               0          1        256    ZERO                 
+            bin <*,raddr[83]>                               0          1        256    ZERO                 
+            bin <*,raddr[82]>                               0          1        256    ZERO                 
+            bin <*,raddr[81]>                               0          1        256    ZERO                 
+            bin <*,raddr[80]>                               0          1        256    ZERO                 
+            bin <*,raddr[79]>                               0          1        256    ZERO                 
+            bin <*,raddr[78]>                               0          1        256    ZERO                 
+            bin <*,raddr[77]>                               0          1        256    ZERO                 
+            bin <*,raddr[76]>                               0          1        256    ZERO                 
+            bin <*,raddr[75]>                               0          1        256    ZERO                 
+            bin <*,raddr[74]>                               0          1        256    ZERO                 
+            bin <*,raddr[73]>                               0          1        256    ZERO                 
+            bin <*,raddr[72]>                               0          1        256    ZERO                 
+            bin <*,raddr[71]>                               0          1        256    ZERO                 
+            bin <*,raddr[70]>                               0          1        256    ZERO                 
+            bin <*,raddr[69]>                               0          1        256    ZERO                 
+            bin <*,raddr[68]>                               0          1        256    ZERO                 
+            bin <*,raddr[67]>                               0          1        256    ZERO                 
+            bin <*,raddr[66]>                               0          1        256    ZERO                 
+            bin <*,raddr[65]>                               0          1        256    ZERO                 
+            bin <*,raddr[64]>                               0          1        256    ZERO                 
+            bin <*,raddr[63]>                               0          1        256    ZERO                 
+            bin <*,raddr[62]>                               0          1        256    ZERO                 
+            bin <*,raddr[61]>                               0          1        256    ZERO                 
+            bin <*,raddr[60]>                               0          1        256    ZERO                 
+            bin <*,raddr[59]>                               0          1        256    ZERO                 
+            bin <*,raddr[58]>                               0          1        256    ZERO                 
+            bin <*,raddr[57]>                               0          1        256    ZERO                 
+            bin <*,raddr[56]>                               0          1        256    ZERO                 
+            bin <*,raddr[55]>                               0          1        256    ZERO                 
+            bin <*,raddr[54]>                               0          1        256    ZERO                 
+            bin <*,raddr[53]>                               0          1        256    ZERO                 
+            bin <*,raddr[52]>                               0          1        256    ZERO                 
+            bin <*,raddr[51]>                               0          1        256    ZERO                 
+            bin <*,raddr[50]>                               0          1        256    ZERO                 
+            bin <*,raddr[49]>                               0          1        256    ZERO                 
+            bin <*,raddr[48]>                               0          1        256    ZERO                 
+            bin <*,raddr[47]>                               0          1        256    ZERO                 
+            bin <*,raddr[46]>                               0          1        256    ZERO                 
+            bin <*,raddr[45]>                               0          1        256    ZERO                 
+            bin <*,raddr[44]>                               0          1        256    ZERO                 
+            bin <*,raddr[43]>                               0          1        256    ZERO                 
+            bin <*,raddr[42]>                               0          1        256    ZERO                 
+            bin <*,raddr[41]>                               0          1        256    ZERO                 
+            bin <*,raddr[40]>                               0          1        256    ZERO                 
+            bin <*,raddr[39]>                               0          1        256    ZERO                 
+            bin <*,raddr[38]>                               0          1        256    ZERO                 
+            bin <*,raddr[37]>                               0          1        256    ZERO                 
+            bin <*,raddr[36]>                               0          1        256    ZERO                 
+            bin <*,raddr[35]>                               0          1        256    ZERO                 
+            bin <*,raddr[34]>                               0          1        256    ZERO                 
+            bin <*,raddr[33]>                               0          1        256    ZERO                 
+            bin <*,raddr[32]>                               0          1        256    ZERO                 
+            bin <*,raddr[31]>                               0          1        256    ZERO                 
+            bin <*,raddr[30]>                               0          1        256    ZERO                 
+            bin <*,raddr[29]>                               0          1        256    ZERO                 
+            bin <*,raddr[28]>                               0          1        256    ZERO                 
+            bin <*,raddr[27]>                               0          1        256    ZERO                 
+            bin <*,raddr[26]>                               0          1        256    ZERO                 
+            bin <*,raddr[25]>                               0          1        256    ZERO                 
+            bin <*,raddr[24]>                               0          1        256    ZERO                 
+            bin <*,raddr[23]>                               0          1        256    ZERO                 
+            bin <*,raddr[22]>                               0          1        256    ZERO                 
+            bin <*,raddr[21]>                               0          1        256    ZERO                 
+            bin <*,raddr[20]>                               0          1        256    ZERO                 
+            bin <*,raddr[19]>                               0          1        256    ZERO                 
+            bin <*,raddr[18]>                               0          1        256    ZERO                 
+            bin <*,raddr[17]>                               0          1        256    ZERO                 
+            bin <*,raddr[16]>                               0          1        256    ZERO                 
+            bin <*,raddr[15]>                               0          1        256    ZERO                 
+            bin <*,raddr[14]>                               0          1        256    ZERO                 
+            bin <*,raddr[13]>                               0          1        256    ZERO                 
+            bin <*,raddr[12]>                               0          1        256    ZERO                 
+            bin <*,raddr[11]>                               0          1        256    ZERO                 
+            bin <*,raddr[10]>                               0          1        256    ZERO                 
+            bin <*,raddr[9]>                                0          1        256    ZERO                 
+            bin <*,raddr[8]>                                0          1        256    ZERO                 
+            bin <*,raddr[7]>                                0          1        256    ZERO                 
+            bin <*,raddr[6]>                                0          1        256    ZERO                 
+            bin <*,raddr[5]>                                0          1        256    ZERO                 
+            bin <*,raddr[4]>                                0          1        256    ZERO                 
+            bin <*,raddr[3]>                                0          1        256    ZERO                 
+            bin <*,raddr[2]>                                0          1        256    ZERO                 
+            bin <*,raddr[1]>                                0          1        256    ZERO                 
+ TYPE /uvmtb_top_sv_unit/coverage/test_write           76.92%        100          -    Uncovered            
+    covered/total bins:                                    28         45          -                      
+    missing/total bins:                                    17         45          -                      
+    % Hit:                                             62.22%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint c0                                      50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin RESET_1                                         0          1          -    ZERO                 
+        bin RESET_0                                       514          1          -    Covered              
+    Coverpoint c1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin fifo_empty_1                                    7          1          -    Covered              
+        bin fifo_empty_0                                  507          1          -    Covered              
+    Coverpoint c2                                     100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin fifo_full_1                                     2          1          -    Covered              
+        bin fifo_full_0                                   512          1          -    Covered              
+    Coverpoint c3                                     100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin write_1                                       257          1          -    Covered              
+        bin write_0                                       257          1          -    Covered              
+    Coverpoint c4                                     100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin wr_data                                       514          1          -    Covered              
+    Coverpoint c10                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin read_1                                        257          1          -    Covered              
+        bin read_0                                        257          1          -    Covered              
+    Cross read_and_fifo_empty                         100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <write_0,fifo_empty_0>                    256          1          -    Covered              
+            bin <write_1,fifo_empty_0>                    251          1          -    Covered              
+            bin <write_0,fifo_empty_1>                      1          1          -    Covered              
+            bin <write_1,fifo_empty_1>                      6          1          -    Covered              
+    Cross read_write_fifo_empty                       100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <write_0,wr_data,fifo_empty_0>            256          1          -    Covered              
+            bin <write_1,wr_data,fifo_empty_0>            251          1          -    Covered              
+            bin <write_0,wr_data,fifo_empty_1>              1          1          -    Covered              
+            bin <write_1,wr_data,fifo_empty_1>              6          1          -    Covered              
+    Cross read_and_clear                               50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <write_0,RESET_0>                         257          1          -    Covered              
+            bin <write_1,RESET_0>                         257          1          -    Covered              
+            bin <*,RESET_1>                                 0          1          2    ZERO                 
+    Cross write_and_fifo_full                         100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <wr_data,fifo_full_0>                     512          1          -    Covered              
+            bin <wr_data,fifo_full_1>                       2          1          -    Covered              
+    Cross read_write_clear                             25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <write_1,RESET_0,read_0>                  257          1          -    Covered              
+            bin <write_0,RESET_0,read_1>                  257          1          -    Covered              
+            bin <*,RESET_1,*>                               0          1          4    ZERO                 
+            bin <write_0,*,read_0>                          0          1          2    ZERO                 
+            bin <write_1,*,read_1>                          0          1          2    ZERO                 
+    Cross clear_and_fifo_empty                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <fifo_empty_0,RESET_0>                    507          1          -    Covered              
+            bin <fifo_empty_1,RESET_0>                      7          1          -    Covered              
+            bin <*,RESET_1>                                 0          1          2    ZERO                 
+    Cross commands_while_reset                         25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <RESET_0,write_1,read_0>                  257          1          -    Covered              
+            bin <RESET_0,write_0,read_1>                  257          1          -    Covered              
+            bin <RESET_1,*,*>                               0          1          4    ZERO                 
+            bin <*,write_0,read_0>                          0          1          2    ZERO                 
+            bin <*,write_1,read_1>                          0          1          2    ZERO                 
+ TYPE /uvmtb_top_sv_unit/coverage/test_read            73.07%        100          -    Uncovered            
+    covered/total bins:                                    30         51          -                      
+    missing/total bins:                                    21         51          -                      
+    % Hit:                                             58.82%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint c5                                     100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin read_1                                        257          1          -    Covered              
+        bin read_0                                        257          1          -    Covered              
+    Coverpoint c6                                      50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin r_rst_n_high                                    0          1          -    ZERO                 
+        bin r_rst_n_low                                   514          1          -    Covered              
+    Coverpoint c7                                     100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin rd_data                                       514          1          -    Covered              
+    Coverpoint c8                                     100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin fifo_empty_1                                    7          1          -    Covered              
+        bin fifo_empty_0                                  507          1          -    Covered              
+    Coverpoint c9                                     100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin fifo_full_1                                     2          1          -    Covered              
+        bin fifo_full_0                                   512          1          -    Covered              
+    Coverpoint c11                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin write_1                                       257          1          -    Covered              
+        bin write_0                                       257          1          -    Covered              
+    Cross read_and_fifo_emptyr                        100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <read_0,fifo_empty_0>                     251          1          -    Covered              
+            bin <read_1,fifo_empty_0>                     256          1          -    Covered              
+            bin <read_0,fifo_empty_1>                       6          1          -    Covered              
+            bin <read_1,fifo_empty_1>                       1          1          -    Covered              
+    Cross read_write_fifo_emptyr                       50.00%        100          -    Uncovered            
+        covered/total bins:                                 4          8          -                      
+        missing/total bins:                                 4          8          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <write_1,read_0,fifo_empty_0>             251          1          -    Covered              
+            bin <write_0,read_1,fifo_empty_0>             256          1          -    Covered              
+            bin <write_1,read_0,fifo_empty_1>               6          1          -    Covered              
+            bin <write_0,read_1,fifo_empty_1>               1          1          -    Covered              
+            bin <write_0,read_0,*>                          0          1          2    ZERO                 
+            bin <write_1,read_1,*>                          0          1          2    ZERO                 
+    Cross read_and_clear_read                          50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <read_0,r_rst_n_low>                      257          1          -    Covered              
+            bin <read_1,r_rst_n_low>                      257          1          -    Covered              
+            bin <*,r_rst_n_high>                            0          1          2    ZERO                 
+    Cross write_and_fifo_fullr                        100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <fifo_full_0,write_0>                     256          1          -    Covered              
+            bin <fifo_full_1,write_0>                       1          1          -    Covered              
+            bin <fifo_full_0,write_1>                     256          1          -    Covered              
+            bin <fifo_full_1,write_1>                       1          1          -    Covered              
+    Cross read_write_clear                             25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <read_1,r_rst_n_low,write_0>              257          1          -    Covered              
+            bin <read_0,r_rst_n_low,write_1>              257          1          -    Covered              
+            bin <*,r_rst_n_high,*>                          0          1          4    ZERO                 
+            bin <read_0,*,write_0>                          0          1          2    ZERO                 
+            bin <read_1,*,write_1>                          0          1          2    ZERO                 
+    Cross clear_and_fifo_empty                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <r_rst_n_low,fifo_empty_0>                507          1          -    Covered              
+            bin <r_rst_n_low,fifo_empty_1>                  7          1          -    Covered              
+            bin <r_rst_n_high,*>                            0          1          2    ZERO                 
+    Cross commands_while_reset                         25.00%        100          -    Uncovered            
+        covered/total bins:                                 2          8          -                      
+        missing/total bins:                                 6          8          -                      
+        % Hit:                                         25.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <read_1,r_rst_n_low,write_0>              257          1          -    Covered              
+            bin <read_0,r_rst_n_low,write_1>              257          1          -    Covered              
+            bin <*,r_rst_n_high,*>                          0          1          4    ZERO                 
+            bin <read_0,*,write_0>                          0          1          2    ZERO                 
+            bin <read_1,*,write_1>                          0          1          2    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 72.26%  COVERGROUP TYPES: 3
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uvmtb_top_sv_unit/fifo_sequence/body/#ublk#45160388#19/immed__24
+                     sequence_fifo_wr.sv(24)            0          1
+/uvmtb_top_sv_unit/fifo_sequence_wr/body/#anonblk#45160388#51#4#/#ublk#45160388#51/immed__55
+                     sequence_fifo_wr.sv(55)            0          1
+/uvmtb_top_sv_unit/sequence_fifo_rd/body/#anonblk#45160388#83#4#/#ublk#45160388#83/immed__87
+                     sequence_fifo_wr.sv(87)            0          1

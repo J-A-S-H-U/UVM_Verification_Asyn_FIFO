@@ -1,0 +1,2 @@
+var g_data = {"37":["RESET_1","RESET_0"],"38":["fifo_empty_1","fifo_empty_0"],"39":["fifo_full_1","fifo_full_0"],"40":["write_1","write_0"],"41":["wr_data"],"42":["read_1","read_0"],"43":["auto[0]","auto[1]"],"44":["auto[0]","auto[1]"],"45":["auto[0]","auto[1]"],"77":["read_1","read_0"],"78":["r_rst_n_high","r_rst_n_low"],"79":["rd_data"],"80":["fifo_empty_1","fifo_empty_0"],"81":["fifo_full_1","fifo_full_0"],"82":["write_1","write_0"],"83":["auto[0]","auto[1]"],"84":["auto[0]","auto[1]"],"85":["auto[0]","auto[1]"]};
+processCoverpointsMapData(g_data);

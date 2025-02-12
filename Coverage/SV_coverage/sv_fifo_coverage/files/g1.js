@@ -1,0 +1,2 @@
+var g_data = {"15":{"pr":"/tb_top/coverage","ty":2,"dui":8,"dun":"work.coverage","cvgs":[{"h":["\\/tb_top/coverage/test_instw ",2,1,36,16],"cov":[61,46,86.84],"opts":{"goal":"100"}},{"h":["/tb_top/coverage/test_write",1,1,16],"cov":[61,46,86.84],"opts":{"goal":"100"}},{"h":["\\/tb_top/coverage/test_instr ",2,1,76,56],"cov":[67,45,80.92],"opts":{"goal":"100"}},{"h":["/tb_top/coverage/test_read",1,1,56],"cov":[67,45,80.92],"opts":{"goal":"100"}}]}};
+processCovergroupsData(g_data);
